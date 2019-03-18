@@ -19,7 +19,7 @@ rm -rf build
    #       -gencode arch=compute_60,code=sm_60 \
     #      -gencode arch=compute_61,code=sm_61 "
 
-CUDA_ARCH="-gencode arch=compute_61,code=sm_61"
+CUDA_ARCH="-gencode arch=compute_70,code=sm_70"
 
 # compile NMS
 cd model/nms/src
